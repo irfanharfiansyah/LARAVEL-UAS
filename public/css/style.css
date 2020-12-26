@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap&family=Anton&display=swapfamily=EB+Garamond:wght@500&family=Mulish:wght@300;400;600&family=Poppins:wght@300;400;600;700&display=swap');
+
+header{
+    background-image: url(../img/style3.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: -300px;
+    height: 135vh;
+    width: 193.5vh;
+}
+.collapse ul{
+    margin-left: 95px;
+}
+.collapse ul li{
+    margin-left: 10px;
+}
+/* nav{
+    margin-top: 70px;
+} */
+nav ul li a.nav-link{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #255A7E;
+}
+nav ul li.nav-item a.nav-link:hover{
+    background-color: rgba(253, 125, 125, 0.507);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    color: rgb(255, 255, 255);
+}
+.home{
+    padding-bottom: 193px;
+}
+.home p:nth-child(1){
+    padding-top: 360px;
+    font-size: 57px;
+    font-family: Mulish ;
+    font-weight: lighter;
+    color: #255A7E;
+}
+.home p span{
+    color: #fd9f8d;
+    font-weight:bold;
+}
+.home p:nth-child(2){
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: Mulish;
+    font-weight: 600;
+}
+.home a button{
+    background-color: #F98169;
+    border: none;
+    padding:17px 52px ;
+    margin-top: 20px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+.home a button:hover{
+    background-color: #F98169;
+    border: none;
+    padding:17px 52px ;
+    margin-top: 20px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    box-shadow: #f9816967 4px 4px 5px;
+    opacity: 90%;
+    transition: all ease 0.5s;
+}
+
+/* POPULAR */
+
+.popular{
+    background-image: url(../img/style2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: -220px;
+    height: 330vh;
+    width: 193vh;
+}
+.jumbotron{
+    background-image: url("../img/back1.jpg");
+    background-size: cover;
+    height: 400px;
+    margin-top: 220px;
+    position: absolute;
+    width: 82%;
+    border-radius: 20px;
+    background-attachment: fixed;
+}
+.popular p.text1{
+    margin-top: 16px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 700;
+    color: #caeaff;
+} 
+ form.form-inline{
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Mulish;
+}
+ form.form-inline input{
+    background-color: rgba(185, 185, 187, 0.699);
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(24, 24, 24, 0.253);
+}
+ form.form-inline input::placeholder{
+    color: rgba(116, 116, 116, 0.418);
+}
+ form.form-inline button{
+    background-color: rgba(185, 185, 187, 0.664);
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(24, 24, 24, 0.253);
+}
+.content-populer{
+    margin-top: 790px;
+    position: absolute;
+    width: 90%;
+    
+}
+.content-populer p.title{
+  text-align: center;
+  margin-right: 90px;
+  margin-bottom: 150px;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 30px;
+}
+.content-populer .line1{
+    position: absolute;
+    top: -20px;
+    left: 560px;
+    transform: rotate(90deg);
+    width: 6px;
+    opacity: 30%;
+}
+.content-populer .card{
+    border: none;
+    background-color:#e5e7e97a;
+    box-shadow: rgba(128, 126, 126, 0.164) 10px 10px 10px;
+    /* margin-right: 85px; */
+    border-top-left-radius: 50px;   
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    font-family: mulish;
+    margin-bottom: 90px;
+    margin-left: -35px;
+}
+.content-populer .card .card-text{
+    font-weight: 600;
+    font-family: mulish;
+}
+.content-populer .card h5{
+    font-family: poppins;
+    font-weight: bold;
+}
+.content-populer .card button{
+    font-family: poppins;
+    font-weight: 400;
+    background-color: #F98169;
+    color: white;
+    border: none;
+    padding:10px 15px ;
+    border-top-left-radius: 20px;   
+    border-bottom-right-radius: 20px;
+}
+.content-populer .card img{
+    border-top-left-radius: 50px;
+}
+.content-populer .card button:hover{
+    font-family: poppins;
+    font-weight: 400;
+    background-color: #f330097a;
+    color: rgb(116, 112, 112);
+    border: none;
+    padding:10px 15px ;
+    outline: none;
+    box-shadow: rgba(141, 141, 141, 0.397) 5px 5px 5px;
+    transition: all ease 0.5s;
+}
+.content-populer button.btnd{
+    background-color: #F98169;
+    border: none;
+    padding:15px 52px ;
+    margin-top: 90px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-left: 430px;
+
+}
+.content-populer button.btnd:hover{
+    outline: none;
+    box-shadow: #f9816967 4px 4px 5px;
+    opacity: 80%;
+    transition: all ease 0.5s;
+}
+
+.pop{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+/* Article-recipePop */
+
+.recipePop {
+    margin-top: 60px;
+}
+.recipePop .titlePop .row{
+    justify-content: center;
+    align-items: center;
+}
+.recipePop .titlePop img.img-top{
+    max-width: 450px;
+    max-height: 500px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.recipePop .titlePop p.text-top{
+    margin-right: 190px;
+}
+.recipePop h5{
+    font-family: poppins;
+    font-size: 55px;
+    font-weight: 600;
+}
+.recipePop p:nth-child(1){
+    font-family: Mulish;
+    font-weight: 700;
+    color: #5f676b;
+}
+.recipePop .article{
+    margin-top: 90px;
+    font-family: poppins;
+}
+.recipePop .article .card-header{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+    background-color:#F98169;
+}
+
+/* Recipe-All */
+
+.content-all p.titleAll{
+    font-family: Lobster;
+    font-size: 180px;
+    text-align: center;
+    color:#ffffff;
+    margin-top: 30px;
+    background-image: url("../img/imgfood.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
+.content-all img:nth-child(2){
+    width: 300px;
+    position: absolute;
+    left: 499px;
+    bottom: -220px;
+    z-index: -99;
+}
+p.food{
+    font-family: Anton;
+    font-size: 90px;
+    margin-top: 200px;
+    text-align: center;
+    color: rgba(71, 68, 68, 0.801);
+    margin-right: 30px;
+    margin-bottom: -299px;
+}
+p.title-food{
+    margin-top: 280px;
+    font-family:Lobster;
+    font-size: 95px;
+    color: #fab3a5;
+    
+}
+.content-recipe{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: auto auto;
+    margin-top: 400px;
+}
+.all{
+    margin-top: 90px;
+    height: 320px;
+    border:none ;
+    background-image: url(../img/Group43.svg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgba(207, 205, 205, 0.336);
+    justify-content: center;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.all img.card-img{
+    border-bottom-left-radius: 50px;
+    object-fit: cover;
+}
+.all h5{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+.all p:nth-child(2){
+    font-family: Mulish;
+    font-weight: 700;
+    color: #5f676b;
+}
+.all button.goRecipe{
+    background-color: #F98169;
+    padding: 20px 25px;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.all button.goRecipe:hover{
+   outline: none;
+   opacity: 70%;
+}
+
+nav ul.pagination{
+    margin:100px 0px 100px 520px;
+   
+}
+nav ul li.page-item .page-link{
+ color: black;
+}
+nav ul li.page-item.active .page-link{
+    background-color: #F98169;
+    border: none;
+    color: black;
+}
+.recipeAll form.los input {
+    background-color: rgba(196, 196, 196, 0.664);
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(167, 167, 167, 0.548);
+    z-index: 99;
+    position: absolute;
+    bottom: -330px;
+    width: 50vh;
+}
+.recipeAll form.los button{
+    background-color: rgba(185, 185, 187, 0.699);
+    border: none;
+    z-index: 99;
+    position: absolute;
+    bottom: -329px;
+    right: 450px;
+    box-shadow: 5px 5px 5px 5px rgba(24, 24, 24, 0.253);
+}
