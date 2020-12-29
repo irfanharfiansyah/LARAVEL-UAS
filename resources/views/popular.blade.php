@@ -32,7 +32,7 @@
                    
                  @endforeach 
             </div> 
-            <a href="/recipeAll"><button class="btnd">Explore All Recipe</button></a>
+            <a href="/recipeAll"><button class="btnd" style="">Explore All Recipe</button></a>
         </div>
     </div>
 </div>    
