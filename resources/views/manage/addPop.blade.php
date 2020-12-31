@@ -1,6 +1,6 @@
 @extends('layouts.masterAdmin')
 
-@section('title', 'Manage-Article')
+@section('title', 'Add-Popular')
 
 @section('content')
 <p class=" font-weight-bold" style="font-size: 50px;">Add Data Recipes Popular</p>

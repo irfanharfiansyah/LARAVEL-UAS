@@ -1,6 +1,6 @@
 @extends('layouts.masterAdmin')
 
-@section('title', 'Manage-Article')
+@section('title', 'Manage-Popular')
 
 @section('content')
 <style>

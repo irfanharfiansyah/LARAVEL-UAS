@@ -1,6 +1,6 @@
 @extends('layouts.masterAdmin')
 
-@section('title', 'Manage-User')
+@section('title', 'Manage-Comment')
 
 @section('content')
 <style>

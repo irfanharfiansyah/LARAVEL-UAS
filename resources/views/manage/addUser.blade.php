@@ -1,6 +1,6 @@
 @extends('layouts.masterAdmin')
 
-@section('title', 'Manage-User')
+@section('title', 'Add-User')
 
 @section('content')
 <p class=" font-weight-bold" style="font-size: 50px;">Add Data User</p>
@@ -15,15 +15,15 @@
         <input type="text" class="form-control" required="required" name="email"></br>
     </div>
     <div class="form-group">
-        <label for="passwordt">Password</label>
+        <label for="password">Password</label>
         <input type="text" class="form-control" required="required" name="password"></br>
     </div>
     <div class="form-group">
-        <label for="roles" name="roles" value="{{$user->roles}} ">Roles</label>
+        <label for="roles" name="roles" >Roles</label>
         <select id="roles" class="form-control" name="roles" >
-            <option value="{{$user->roles}}">- Pilih Roles</option>
-            <option name="roles" value="{{$user->roles}}">Admin</option>
-            <option name="roles" value="{{$user->roles}}">User</option>
+            <option>- Pilih Roles</option>
+            <option name="roles" value="Administrator">Admin</option>
+            <option name="roles" value="User">User</option>
         </select>
     </div>
     <div class="form-group">

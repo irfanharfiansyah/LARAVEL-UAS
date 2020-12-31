@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use App\User;
 use PDF;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Gate;
 use Faker\Factory as Faker;
 use Illuminate\Http\Request;
 
@@ -21,17 +23,18 @@ class userController extends Controller
         if($request->file('image')){
             $image = $request->file('image')->store('imageUser','public');
             }      
-        user::create([
+        User::create([
         'name' => $request->name,
         'email' => $request->email,
+        'roles' => $request->roles,
         'password' => \Hash::make ($request->password),
-        'featured_image'=> $image
+        'image'=> $image
         ]);
         return redirect('/manageUser');
     }
     public function edit($id){
 
-        $user = user::find($id);
+        $user = User::find($id);
         return view('manage.editUser',['user'=>$user]);
     }
     public function update($id, Request $request){
