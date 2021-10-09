@@ -27,7 +27,7 @@
                     <td>{{$a->id}}</td>
                     <td>{{$a->title}}</td>
                     <td style="text-align: justify;">{{$a->content}}</td>
-                    <td><img height="99px" width="150px" src="{{asset('/storage/'.$a->featured_image)}}" style="object-fit: cover"></td>
+                    <td><img height="99px" width="150px" src="{{  asset('/storage/'.$a->featured_image) }}" style="object-fit: cover"></td>
                     <td >
                         <a href="recipeAll/delete/{{ $a->id }}" class="badge badge-danger">Hapus</a>
                         <a href="recipeAll/edit/{{ $a->id }}" class="badge badge-primary">Edit</a>

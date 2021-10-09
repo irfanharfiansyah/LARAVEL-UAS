@@ -12,10 +12,12 @@
 */
 
 
+
 Auth::routes();
+Route::view('/', 'auth/login');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/Admin', 'AllController@index')->name('masterAdmin');
+Route::get('/admin', 'AllController@index')->name('masterAdmin');
 
 Route::get('/manageCom', 'commentController@index')->name('manage');
 Route::get('/manageCom/delete/{id}','commentController@delete');

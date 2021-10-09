@@ -26,7 +26,7 @@
     <div class="form-group">
         <label for="image">Image</label>
         <input type="file" class="form-control" required="required" name="image" value="{{$recipe->featured_image}}"></br>
-        <img width="150px" src="{{asset('storage/'.$recipe->featured_image)}}">
+        <img width="150px" src="{{asset('/storage/'.$recipe->featured_image)}}">
     </div>
     <button type="submit" name="edit" class="btn btn-primary float-right mb-5">Ubah Data</button>
     </form>
